@@ -4,4 +4,4 @@ script:
   - mkdir build && cd build
   - cmake ..
   - cmake --build .
-  - ./hello
+  - ./CI_usage
