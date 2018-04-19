@@ -28,6 +28,6 @@ if [[ "$(uname -s)" == 'Linux' ]]; then
 fi
 
 sudo pip install conan
-sudo conan remote add conan.io https://server.conan.io
+sudo conan remote add conan.io http://server.conan.io
 
 sudo conan user
