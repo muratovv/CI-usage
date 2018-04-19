@@ -1,7 +1,6 @@
 language: cpp
 
 script:
-  - mkdir build && cd build
-  - cmake ..
-  - cmake --build .
-  - ./CI_usage
+  - cmake -H. -Bbuild
+  - cmake --build build
+  - ./build/CI_usage
