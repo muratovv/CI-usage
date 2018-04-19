@@ -19,7 +19,7 @@
 
 #include <gtest/gtest.h>
 
-#include "hello.h"
+#include "../src/hello.h"
 
 using namespace hello;
 
