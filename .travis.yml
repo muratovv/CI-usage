@@ -1,10 +1,10 @@
 language: cpp
 
 install:
-  - ./.travis/install.sh
+  - ./install.sh
 
 script:
-  - ./.travis/run.sh
+  - ./run.sh
 
 env:
   - BUILD_TYPE=Debug COMPILER=g++-6
