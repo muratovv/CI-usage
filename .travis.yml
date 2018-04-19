@@ -1,6 +1,7 @@
 language: cpp
 
-sudo:required
+sudo:
+  required
 
 install:
   - ./install.sh
