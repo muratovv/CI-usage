@@ -15,8 +15,11 @@
  * limitations under the License.
  */
 
-#include <iostream>
+#ifndef CI_USAGE_HELLO_H
+#define CI_USAGE_HELLO_H
+#include <ostream>
 
-int main() {
-  std::cout << "Hello, world!" << std::endl;
+namespace hello {
+  std::ostream& greet(std::ostream&);
 }
+#endif //CI_USAGE_HELLO_H
