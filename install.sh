@@ -27,7 +27,7 @@ if [[ "$(uname -s)" == 'Linux' ]]; then
     CXX=$CXX_COMPILER
 fi
 
-pip install conan
+sudo pip install conan
 conan remote add conan.io https://server.conan.io
 
 conan user
